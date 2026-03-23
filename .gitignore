@@ -1,0 +1,35 @@
+# ── Data files (never upload to GitHub) ──────────────
+*.xlsx
+*.xls
+*.csv
+*.tsv
+
+# ── Python cache ──────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ── Virtual environments ──────────────────────────────
+venv/
+env/
+.venv/
+
+# ── Jupyter checkpoints ───────────────────────────────
+.ipynb_checkpoints/
+
+# ── OS files ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE / editor ──────────────────────────────────────
+.vscode/
+.idea/
+
+# ── Saved models ─────────────────────────────────────
+*.pkl
+*.joblib
+*.model
+
+# ── Result images ─────────────────────────────────────
+results/*.png
+results/*.jpg
